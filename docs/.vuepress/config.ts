@@ -29,7 +29,7 @@ export default {
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
         ['meta', { name: 'theme-color', content: '#9d2236' }],
     ],
-    base: '/Medical_Insurance_for_College_Students_CDUTCM_wiki/',
+    // base: '/Medical_Insurance_for_College_Students_CDUTCM_wiki/',
     theme: defaultTheme({
         navbar: [
             {
