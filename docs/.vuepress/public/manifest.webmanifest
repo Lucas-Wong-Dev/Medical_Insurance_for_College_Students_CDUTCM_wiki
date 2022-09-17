@@ -1,0 +1,21 @@
+{
+    "name": "大学生医保完全攻略",
+    "short_name": "医保",
+    "description": "大学生医保完全攻略（适用于成都中医药大学）",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#9d2236",
+    "icons": [
+        {
+            "src": "/images/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ]
+}
