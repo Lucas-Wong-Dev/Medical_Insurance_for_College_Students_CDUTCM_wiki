@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'
 import { searchPlugin } from '@vuepress/plugin-search'
 // import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-// import { pwaPlugin } from '@vuepress/plugin-pwa'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
 
 // export default defineUserConfig({
 //     lang: 'zh-CN',
@@ -89,9 +89,9 @@ export default {
             // options
         }),
         // docsearchPlugin({ appId: 's', apiKey: 's', indexName: 'd' }),
-        // pwaPlugin({
-        //     skipWaiting: false,
-        //     serviceWorkerFilename: 'service-worker.js',
-        // }),
+        pwaPlugin({
+            skipWaiting: false,
+            serviceWorkerFilename: 'service-worker.js',
+        }),
     ],
 }
