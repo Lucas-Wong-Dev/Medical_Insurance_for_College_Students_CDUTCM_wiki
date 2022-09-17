@@ -15,8 +15,8 @@ features:
     details: 所引用的政策文件均附带出处链接，如有疑惑，可自行核对。
   - title: 问题驱动
     details: 以问答的形式构建本攻略，解决参保人最关心的问题。
-footer: Made with ❤️ by Sam Wang
-footerHtml: false
+footer: Made with ❤️ by <span style="border:1px solid rgb(157,34,54); border-radius:4px; padding-left:3px;padding-right:3px; padding-top:1px; padding-bottom:3px; background-color:rgb(157,34,54); color:white;">Sam Wang</span>
+footerHtml: true
 ---
 
 ::: tip 适用范围
