@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'
 import { searchPlugin } from '@vuepress/plugin-search'
 // import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import { pwaPlugin } from '@vuepress/plugin-pwa'
+// import { pwaPlugin } from '@vuepress/plugin-pwa'
 
 // export default defineUserConfig({
 //     lang: 'zh-CN',
@@ -26,8 +26,8 @@ export default {
     description: '大学生医保完全攻略（适用于成都中医药大学）',
     head: [
         ['link', { rel: 'icon', href: '/images/logo-32.png' }],
-        ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-        ['meta', { name: 'theme-color', content: '#9d2236' }],
+        // ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+        // ['meta', { name: 'theme-color', content: '#9d2236' }],
     ],
     // base: '/Medical_Insurance_for_College_Students_CDUTCM_wiki/',
     theme: defaultTheme({
@@ -80,8 +80,6 @@ export default {
                 '如何通过大学生医保进行报销？.md',
             ]
         }
-
-
     }),
     plugins: [
         nprogressPlugin(),
@@ -89,9 +87,9 @@ export default {
             // options
         }),
         // docsearchPlugin({ appId: 's', apiKey: 's', indexName: 'd' }),
-        pwaPlugin({
-            skipWaiting: false,
-            serviceWorkerFilename: 'service-worker.js',
-        }),
+        // pwaPlugin({
+        //     skipWaiting: false,
+        //     serviceWorkerFilename: 'service-worker.js',
+        // }),
     ],
 }

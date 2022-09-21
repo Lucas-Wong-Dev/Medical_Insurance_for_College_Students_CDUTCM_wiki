@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/logo-128.png
+heroImage: /images/logo-400.png
 heroAlt: 指南针
 heroText: 大学生医保完全攻略
 tagline: 风险规避是每个人的必修课，在风暴来临前，我们应清楚医保系统到底是如何运作的
